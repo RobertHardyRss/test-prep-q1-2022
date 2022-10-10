@@ -12,7 +12,7 @@ console.log("The fruit variable equals: ", fruit);
 // favorite fruit.  Feel free to add to the fruits array
 // if your favorite isn't in there.
 let fruits = ["grape", "apple", "kiwi", "strawberry"];
-fruits = fruits.filter((f) => "");
+fruits = fruits.filter((f) => f === "");
 console.log("The array of fruits now equals: ", fruits);
 
 // Create a new class called Player. Have the Player class
